@@ -1,19 +1,13 @@
-# IDS706-Project2-Yutong
-This is the repo for IDS706 course project 2.
-
-CLT downloads and describes any Kaggle data with the dataset name.
+# IDS706-Project4-Yutong
+This is the repo for IDS706 course project 4.
 
 ### Usage
 
-#### Getting access to Kaggle dataset
+TBA
 
-If you see OSError: `Could not find kaggle.json. Make sure it's located in /home/vscode/.kaggle. Or use the environment method.`. Please download Kaggle token with your account and mv it to required dirtectory.
+Project #4: Continuous Delivery of Flask/FastAPI Data Engineering API on AWS
 
-#### Downloading Kaggle dataset
-
-`./describe_kaggle_data -d <kaggle_data_name>`
-
-Example: 
-
-`./describe_kaggle_data.sh -d store-sales-time-series-forecasting`
-`./describe_kaggle_data.sh -d house-prices-advanced-regression-techniques`
+- Create a Microservice that returns a JSON payload and performs a Data Engineering related task
+- Push tested source code to Github and perform Continuous Integration with Github Actions (or similar SaaS Build service)
+- Configure Build Server to Deploy Changes on build (Continuous Delivery)
+- Create realistic API (reference here: Data Engineering: Chapter 5 aws chapter for pragmatic ai.)

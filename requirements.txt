@@ -4,3 +4,5 @@ pytest
 click
 kaggle
 pandas
+fastapi
+uvicorn[standard]

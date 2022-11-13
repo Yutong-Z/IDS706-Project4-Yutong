@@ -2,8 +2,6 @@
 
 from fastapi import FastAPI
 import uvicorn
-from dblib.querydb import querydb
-from dblib.querydb import query_carat_price
 
 app = FastAPI()
 

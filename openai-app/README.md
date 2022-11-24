@@ -1,6 +1,6 @@
 # Q&A Web App with OpenAI API
 
-This is a web app that can answer questions driven by OpenAI API. The code is adpoted from [OpenAI quickstart repo](https://github.com/openai/openai-quickstart-python) [OpenAI quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework.
+This is a web app that can answer questions driven by OpenAI API. The code is adpoted from [OpenAI quickstart repo](https://github.com/openai/openai-quickstart-python) and [OpenAI quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework.
 
 Follow the instructions below to set up and run the web app.
 
@@ -29,10 +29,12 @@ Follow the instructions below to set up and run the web app.
    $ pip install -r requirements.txt
    ```
 
-6. Make a copy of the example environment variables file
+6. Create an environment variables file `.env` with following content
 
-   ```bash
-   $ cp .env.example .env
+   ```env
+   FLASK_APP=app
+   FLASK_ENV=development
+   OPENAI_API_KEY=
    ```
 
 7. Add your [OpenAI API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file

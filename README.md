@@ -1,6 +1,9 @@
 # IDS706-Project4-Yutong
 This is the repo for IDS706 course project 4.
 
+OpenAI
+https://beta.openai.com/playground/p/default-qa?model=text-davinci-002
+
 ### Usage
 
 TBA

@@ -3,6 +3,9 @@
 *.zip
 data/*
 
+# Ignore env file
+*.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

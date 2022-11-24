@@ -1,6 +1,8 @@
-# OpenAI API Quickstart - Python example app
+# Q&A Web App with OpenAI API
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
+This is a web app that can answer questions driven by OpenAI API. The code is adpoted from [OpenAI quickstart repo](https://github.com/openai/openai-quickstart-python) [OpenAI quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework.
+
+Follow the instructions below to set up and run the web app.
 
 ## Setup
 
@@ -11,7 +13,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 3. Navigate into the project directory
 
    ```bash
-   $ cd openai-quickstart-python
+   $ cd openai-app
    ```
 
 4. Create a new virtual environment
@@ -33,7 +35,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
    $ cp .env.example .env
    ```
 
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
+7. Add your [OpenAI API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
 8. Run the app
 
